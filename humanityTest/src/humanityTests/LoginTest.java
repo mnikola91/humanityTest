@@ -73,10 +73,6 @@ public class LoginTest extends BasicTest {
 			Assert.assertTrue(ep.isEmployeeAdded(ex.getDataAt(i, 2)));
 		}
 
-		Assert.assertTrue(ep.isEmployeeAdded("petarp@email.com"));
-		Assert.assertTrue(ep.isEmployeeAdded("markom@email.com"));
-		Assert.assertTrue(ep.isEmployeeAdded("milosm@email.com"));
 		ex.closeExcell();
-
 	}
 }

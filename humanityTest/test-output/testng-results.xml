@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-01-16T22:01:28 CET" name="Default suite" finished-at="2020-01-16T22:02:38 CET" duration-ms="70195">
+  <suite started-at="2020-01-18T20:38:14 CET" name="Default suite" finished-at="2020-01-18T20:39:04 CET" duration-ms="49911">
     <groups>
     </groups>
-    <test started-at="2020-01-16T22:01:28 CET" name="Default test" finished-at="2020-01-16T22:02:38 CET" duration-ms="70195">
+    <test started-at="2020-01-18T20:38:14 CET" name="Default test" finished-at="2020-01-18T20:39:04 CET" duration-ms="49911">
       <class name="humanityTests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:humanityTests.LoginTest@50caa560]" started-at="2020-01-16T22:01:28 CET" name="setup" finished-at="2020-01-16T22:01:36 CET" duration-ms="8605" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:humanityTests.LoginTest@50caa560]" started-at="2020-01-18T20:38:14 CET" name="setup" finished-at="2020-01-18T20:38:19 CET" duration-ms="5532" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="basicLogin()[pri:0, instance:humanityTests.LoginTest@50caa560]" started-at="2020-01-16T22:01:36 CET" name="basicLogin" finished-at="2020-01-16T22:02:05 CET" duration-ms="28719" status="PASS">
+        <test-method signature="basicLogin()[pri:0, instance:humanityTests.LoginTest@50caa560]" started-at="2020-01-18T20:38:19 CET" name="basicLogin" finished-at="2020-01-18T20:38:41 CET" duration-ms="21317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basicLogin -->
-        <test-method signature="dashboardTest()[pri:1, instance:humanityTests.LoginTest@50caa560]" started-at="2020-01-16T22:02:05 CET" name="dashboardTest" finished-at="2020-01-16T22:02:06 CET" duration-ms="724" status="PASS">
+        <test-method signature="dashboardTest()[pri:1, instance:humanityTests.LoginTest@50caa560]" started-at="2020-01-18T20:38:41 CET" name="dashboardTest" finished-at="2020-01-18T20:38:41 CET" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashboardTest -->
-        <test-method signature="addEmployeeTest()[pri:20, instance:humanityTests.LoginTest@50caa560]" started-at="2020-01-16T22:02:06 CET" name="addEmployeeTest" finished-at="2020-01-16T22:02:35 CET" duration-ms="29512" status="FAIL">
+        <test-method signature="addEmployeeTest()[pri:20, instance:humanityTests.LoginTest@50caa560]" started-at="2020-01-18T20:38:41 CET" name="addEmployeeTest" finished-at="2020-01-18T20:39:01 CET" duration-ms="20695" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[did not expect to find [true] but found [false]]]>
@@ -30,7 +30,7 @@ at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.failNotEquals(Assert.java:969)
 at org.testng.Assert.assertTrue(Assert.java:43)
 at org.testng.Assert.assertTrue(Assert.java:53)
-at humanityTests.LoginTest.addEmployeeTest(LoginTest.java:74)
+at humanityTests.LoginTest.addEmployeeTest(LoginTest.java:77)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -65,7 +65,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addEmployeeTest -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:humanityTests.LoginTest@50caa560]" started-at="2020-01-16T22:02:35 CET" name="quit" finished-at="2020-01-16T22:02:38 CET" duration-ms="2490" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:humanityTests.LoginTest@50caa560]" started-at="2020-01-18T20:39:01 CET" name="quit" finished-at="2020-01-18T20:39:04 CET" duration-ms="2222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
